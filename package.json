@@ -1,0 +1,18 @@
+{
+  "name": "university-results-portal",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "server": "node server.js",
+    "postinstall": "chmod +x node_modules/.bin/vite"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mysql2": "^3.9.1",
+    "vite": "^5.0.0"
+  }
+}
