@@ -2,6 +2,7 @@ import './styles/main.css';
 import { initAuth, updateAuthUI, toggleTheme } from './components/auth.js';
 import { initUniversities } from './components/universities.js';
 import { initSidebar } from './components/sidebar.js';
+import './components/auth.js';
 
 // ── Theme init (before render to avoid flash) ─────────────────────────────
 const savedTheme = localStorage.getItem('theme') || 'light';
